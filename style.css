@@ -1,0 +1,116 @@
+body{
+    background-color: #D4B996;
+    color: #8F6749;
+}
+h1{
+    margin-top: 3cm;
+    margin-left: 18cm;
+    font-family: 'Gloria Hallelujah', cursive;
+
+}
+
+p{
+    margin-top: 1cm;
+    margin-left: 18cm;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+}
+
+button{
+    font-family: 'Gloria Hallelujah', cursive;
+    background-color:  #8F6749;
+    size: 30mm;
+    margin-left: 2cm;
+    margin-top: 1cm;
+    padding: 15px 32px;
+    color: #D4B996;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8F6749;
+    font-family: 'Gloria Hallelujah', cursive;
+
+}
+
+li {
+    float: right;
+}
+
+li a {
+    font-size: 20px;
+    display: block;
+    color:#D4B996;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.founders {
+    float:left;
+    border-radius: 8px;
+    max-width: 80%;
+    height: auto;
+    margin-left: 8.5cm;
+    height: 15cm;
+    margin-top: 2cm;
+}
+  
+img.np {
+    float:left;
+    height:2cm;
+}
+
+.flex-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.flex-items {
+    padding: 2%;
+    flex-grow: 1;
+    flex-basis: 15%;
+    display: flex;
+    flex-direction: column;
+    border: 10px solid #8F6749;
+}
+
+.flex-image img {
+    max-width: 100%;
+    width: 400px;
+}
+
+.flex-info {
+    margin-top: auto;
+    font-family: 'Rubik', sans-serif;
+}
+
+@media (max-width: 920px) {
+    .flex-items {
+        flex: 1 21%;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .flex-item{
+      flex:0 1 45%;
+    }
+}
+
+.introduction-info {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size:18px;
+}
+
+.introduction-info p2 {
+    font-family: 'Rubik', sans-serif;
+    font-size:21px;
+}
