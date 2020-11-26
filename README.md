@@ -20,7 +20,7 @@ In my "Connections" page, a feature I added was hyperlinking images to quickly b
 
 <h>Credits</h>
 </p> Image sources: <br>
-https://www.np.edu.sg/is/Pages/Year1Modules_AY2018.aspx
-https://bitbucket.org/product/
+https://www.np.edu.sg/is/Pages/Year1Modules_AY2018.aspx <br>
+https://bitbucket.org/product/ <br>
 https://en.wikipedia.org/wiki/GitHub
 </p>
