@@ -1,26 +1,22 @@
 body{
     background-color: #D4B996;
-    color: #8F6749;
-}
-h1{
-    margin-top: 3cm;
-    margin-left: 18cm;
-    font-family: 'Gloria Hallelujah', cursive;
-
 }
 
-p{
-    margin-top: 1cm;
-    margin-left: 18cm;
-    font-family: 'Rubik', sans-serif;
-    font-size: 25px;
+div.btn-group{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
-
+@media (max-width: 800px) {
+    .btn-group {
+      flex-direction: column;
+    }
+}
 button{
     font-family: 'Gloria Hallelujah', cursive;
     background-color:  #8F6749;
     size: 30mm;
-    margin-left: 2cm;
     margin-top: 1cm;
     padding: 15px 32px;
     color: #D4B996;
@@ -54,63 +50,131 @@ li a:hover {
     background-color: #111;
 }
 
-.founders {
-    float:left;
-    border-radius: 8px;
-    max-width: 80%;
-    height: auto;
-    margin-left: 8.5cm;
-    height: 15cm;
-    margin-top: 2cm;
-}
-  
 img.np {
-    float:left;
-    height:2cm;
+    height:1.8cm;
+}
+
+section h1 {
+    font-size:80px;
+    color: #8F6749;
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+}
+
+section p {
+    font-size:25px;
+    color: #8F6749;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+
+div.introduction-info p2{
+    color: #8F6749;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+}
+
+div.introduction-info h2{
+    color: #8F6749;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 25px;
+}
+
+.founders {
+    max-width: 50%;
+    height: auto;
+    width: auto;
+    display: block;
+    margin-left:0;
+    margin-top:1cm;
+    border-radius: 8px;
+    height:30%;
+    width:20%;
+    float:right;
 }
 
 .flex-container {
-    display: flex;
-    width: 100%;
+    display:flex;
+    flex-direction:row;
     flex-wrap: wrap;
-}
-.flex-items {
-    padding: 2%;
-    flex-grow: 1;
-    flex-basis: 15%;
-    display: flex;
-    flex-direction: column;
-    border: 10px solid #8F6749;
-}
-
-.flex-image img {
-    max-width: 100%;
-    width: 400px;
+    justify-content: space-evenly;
+    align-items:baseline;
+    margin-top:2cm;
 }
 
 .flex-info {
-    margin-top: auto;
     font-family: 'Rubik', sans-serif;
 }
 
-@media (max-width: 920px) {
-    .flex-items {
-        flex: 1 21%;
-    }
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: #D4B996;
 }
 
-@media screen and (max-width:576px) {
-    .flex-item{
-      flex:0 1 45%;
-    }
+input[type=submit] {
+    background-color: #D4B996;
+    color: #774c2a;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color :#774c2a;
+    color:#D4B996;
+}
+  
+.container {
+    margin-top: 10cm;
+    border-radius: 5px;
+    background-color: #8F6749;
+    padding: 20px;
+    color:#D4B996;
+    font-family: 'Rubik', sans-serif;
+    font-size:20px;
+
 }
 
-.introduction-info {
+::placeholder{
+    color:#774c2a;
+}
+
+.container h{
+    color: #D4B996;
     font-family: 'Gloria Hallelujah', cursive;
-    font-size:18px;
+    font-size: 40px;
 }
 
-.introduction-info p2 {
+div.gallery {
+    margin: auto;
+    margin-top: 2cm;
+    border: 5px solid #8F6749;
+    width: 1000px;
+}
+  
+div.gallery:hover {
+    border: 5px solid#000000;
+}
+  
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+  
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+div.desc{
     font-family: 'Rubik', sans-serif;
-    font-size:21px;
+    color:#774c2a;
 }
