@@ -11,7 +11,7 @@ in the future. This project will give my audience, who are possible employers, a
 So as a employer, what I want to receive from this website is more on his personal profile and commitments in the past.
 
 <h>Features</h>
-<p>In my website, I have 3 navigation pages. An "About" page for my personal profile, "Connections" page for my different work social networks and contact form and "Boys' Brigade" page to show my commitment in the past/
+<p>In my website, I have 3 navigation pages. An "About" page for my personal profile, "Connections" page for my different work social networks and contact form and "Boys' Brigade" page to show my commitment in the past.
 In my "Connections" page, a feature I added was hyperlinking images to quickly bring them to my social network based on the image they clicked. 
 </p>
 
