@@ -67,6 +67,9 @@ section p {
     text-align: center;
 }
 
+div.introduction-info {
+    margin-left:1cm;
+}
 div.introduction-info p2{
     color: #8F6749;
     font-family: 'Rubik', sans-serif;
