@@ -20,6 +20,10 @@ In my "Boys Brigade" page, I made it possible for users to enlarge the image whe
 </p> I used HTML and CSS to do this project. My IDE used was Visual Studio Code. </p>
 
 <h>Credits</h>
+<p> Fonts Used:
+https://fonts.google.com/specimen/Rubik?query=rubik
+https://fonts.google.com/specimen/Gloria+Hallelujah?query=gloria
+
 </p> Image sources: <br>
 https://www.np.edu.sg/is/Pages/Year1Modules_AY2018.aspx <br>
 https://bitbucket.org/product/ <br>
